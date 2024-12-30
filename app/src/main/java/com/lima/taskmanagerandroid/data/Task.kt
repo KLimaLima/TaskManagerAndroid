@@ -9,5 +9,6 @@ data class Task(
     val _id: Int = 0,
     val title: String,
     val content: String,
+    val dateAdded: Long,
     val isFinished: Boolean
 )
